@@ -80,7 +80,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 21px;
 }
 
 
@@ -95,13 +96,6 @@ span.title {
    font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 32px;
-}
-
-span.description {
-  font-family: 'Roboto', sans-serif;
-  font-size: 21px;
-  font-weight: 100;
-  font-size: 16px;
 }
 
 .project1-number, .project2-number, .project3-number, .project4-number{
@@ -128,7 +122,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 21px;
 }
 
 .project1-number, .project2-number, .project3-number, .project4-number{
@@ -369,7 +364,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 .project1-number, .project2-number, .project3-number, .project4-number{
@@ -726,7 +722,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 21px;
 }
 
 .categoryw {
@@ -739,12 +736,6 @@ span.title {
    font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 32px;
-}
-
-span.description {
-  font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
 }
 
 .project1-numberw, .project2-numberw, .project3-numberw, .project4-numberw{
@@ -953,7 +944,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 .project1-numberw, .project2-numberw, .project3-numberw, .project4-numberw{
@@ -1037,7 +1029,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 21px;
 }
 
 .category {
@@ -1050,12 +1043,6 @@ span.title {
    font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 32px;
-}
-
-span.description {
-  font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
 }
 
 .project1-numberp, .project2-numberp, .project3-numberp, .project4-numberp{
@@ -1258,7 +1245,8 @@ span.title {
 span.description {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 .project1-numberp, .project2-numberp, .project3-numberp, .project4-numberp{
@@ -1345,7 +1333,8 @@ span.titlesm {
 span.descriptionsm {
   font-family: 'Roboto', sans-serif;
   color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 100;
+  font-size: 21px;
 }
 
 .categorysm {
@@ -1358,12 +1347,6 @@ span.titlesm {
    font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 32px;
-}
-
-span.descriptionsm {
-  font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
 }
 
 @media screen and (min-width: 1281px){
@@ -1468,9 +1451,13 @@ grid-column-end: 3;
 
 section.solutionssm {
   padding-left: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  width: 50%;
+  font-weight: 500;
 }
 
-section.solutionssm section.challengessm{
+section.challengessm{
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   width: 50%;
@@ -1510,8 +1497,6 @@ section.nonboldedsm {
   font-size: 21px;
   font-weight: 300;
 }
-
-  
   
   p.categorytitlesm {
     font-size: 36px;
@@ -1606,7 +1591,7 @@ border-radius: 16px;
 bottom: 62%;
   }
   
-  p.foursm {
+  p.foursm{
     grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 7;
@@ -1618,7 +1603,7 @@ font-family: 'Roboto', sans-serif;
    font-weight: 500;
   }
   
-  .fourinfosm {
+  .fourinfosm, .textsm  {
      font-size: 21px;
 font-family: 'Roboto', sans-serif;
   padding-top: 3%;
@@ -1667,6 +1652,13 @@ justify-content: space-around;
     background-color: #849FB8;
 }
 
+span.descriptionsm {
+  font-family: 'Roboto', sans-serif;
+  color: #ABAEB1;
+  font-weight: 100;
+  font-size: 16px;
+}
+
   
   .picofmesm {
   height: 200px;
@@ -1712,6 +1704,27 @@ display: flex;
     flex-direction: column;
     
   }  
+
+  section.solutionssm {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  section.challengessm{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    width: 100%;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+  
+  .textsm {
+    font-size: 21px;
+    font-weight: 100;
+  }
   
   p.projectnamesm {
   font-size: 48px;
@@ -1754,7 +1767,7 @@ grid-column-end: 3;
   bottom: 50%;
 }
 
-section{
+section.challenges, section.challenges{
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   width: 100%;
@@ -1926,17 +1939,21 @@ border-radius: 16px;
     bottom: 70%;
     margin: 0 auto;
   }
-  
-  footer.smfooter {
-display: flex;
-align-items: center;
-  justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-    position: relative;
-    bottom: -600%;
 
-bottom: -350rem;
-}
+  .bluesm {
+    color: #667E94;
+    font-size: 26px;
+    font-weight: 500;
+    display: inline-block;
+padding-top: 1%;
+  }
+  
+footer.smfooter {
+  display: flex;
+  align-items: flex-end;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    height: 100vh;
   }
 
