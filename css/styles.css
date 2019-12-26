@@ -3367,6 +3367,11 @@ border: 1px solid;
 width: 700px;
 height: 500px;
 border-radius: 16px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/braillevselia.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
 
 b {
