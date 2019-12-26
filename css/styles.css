@@ -3458,6 +3458,7 @@ border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -166%;
+
  }
   
  p.threel {
@@ -4654,11 +4655,15 @@ font-family: 'Roboto', sans-serif;
   div.researchg {
     width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -65%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googledoodlecode.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: unset;
+
  }
   
  p.threeg {
