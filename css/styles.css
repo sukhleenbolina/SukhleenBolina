@@ -4696,15 +4696,13 @@ padding-top: 1%;
   div.designg {
     width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
         bottom: 19%;
-        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googledoodle.png");
+        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googledoodleladdar.png");
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
 }
   
 
