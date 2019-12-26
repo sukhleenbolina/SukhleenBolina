@@ -4714,11 +4714,13 @@ background-size: cover;
   div.prototypeg {
       width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
        bottom: 30%;
+       background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googlelogodoodle.png");
+background-repeat: no-repeat;
+background-size: cover;
 }
   
   footer.gfooter {
