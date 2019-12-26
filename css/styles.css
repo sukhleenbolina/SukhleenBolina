@@ -4701,6 +4701,10 @@ grid-row-start: 6;
 border-radius: 16px;
     position: relative;
         bottom: 19%;
+        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googledoodle.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
   
 
