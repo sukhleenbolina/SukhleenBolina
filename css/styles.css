@@ -163,8 +163,13 @@ margin: 0 0 0 8%;
 .project1-image {
 grid-column-start: 3;
 grid-column-end: 7;
-border: 1px solid;
 border-radius: 16px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #fbb888;
 }
 
 .project1-number {
@@ -197,6 +202,11 @@ grid-row-start: 3;
 grid-column-end: 4;
 border: 1px solid;
 border-radius: 16px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lhmock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
 
 .project2-number {
@@ -235,9 +245,13 @@ justify-content: flex-end;
     grid-row-start: 1;
     grid-column-start: 3;
     grid-column-end: 6;
-    border: 1px solid;
     border-radius: 16px;
     grid-row-end: 2;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
 
 
@@ -269,9 +283,9 @@ bottom: -3rem;
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 4;
-    border: 1px solid;
     border-radius: 16px;
     grid-row-end: 4;
+   
 }
 
 .project4-info {
@@ -392,9 +406,47 @@ padding: 0% 0% 0% 0%;
 }
  
 
-.project1-image, .project2-image, .project3-image, .project4-image  {
+.project2-image  {
 height: 14rem;
 border: 1px solid;
+border-radius: 16px;
+width: 315px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lhmock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
+
+}
+
+project4-image{
+ 
+height: 14rem;
+border-radius: 16px;
+border: 1px solid;
+width: 315px;
+}
+}
+
+project1-image {
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #fbb888;
+height: 14rem;
+border-radius: 16px;
+width: 315px;
+}
+
+project3-image {
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
+height: 14rem;
 border-radius: 16px;
 width: 315px;
 }
@@ -1421,12 +1473,17 @@ margin-left: 250px;
 .picofmesm {
  width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
 bottom: 37%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #fbb888;
 }
   
 .bg-colorsm {
@@ -1659,11 +1716,16 @@ font-family: 'Roboto', sans-serif;
   div.prototypesm {
       width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 70%;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smprototype.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #ABAEB1;
   }
   
   footer.smfooter {
@@ -1704,12 +1766,17 @@ span.descriptionsm {
   .picofmesm {
   height: 200px;
     width: 300px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #fbb888;
 }
   
 a.active {
@@ -1973,12 +2040,17 @@ font-family: 'Roboto', sans-serif;
   div.prototypesm {
       width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 70%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smprototype.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-color: #ABAEB1;
   }
 
   .bluesm {
@@ -2089,12 +2161,16 @@ margin-left: 250px;
 .picofmer {
  width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
 bottom: 37%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
   
 .bg-colorr {
@@ -2324,11 +2400,16 @@ font-family: 'Roboto', sans-serif;
   div.prototyper {
       width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 95%;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fourrys.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
+}
   }
   
   footer.rfooter {
@@ -2340,7 +2421,7 @@ align-items: center;
     position: relative;
 bottom: -276rem;
 }
-  }
+  
 
 @media screen and (max-width: 1280px){
  
@@ -2609,12 +2690,17 @@ font-family: 'Roboto', sans-serif;
   div.prototyper{
       width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 70%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fourrys.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
+}
   }
   
   footer.rfooter {
@@ -2628,7 +2714,7 @@ align-items: center;
 
 bottom: -350rem;
 }
-  }
+  
 
 /* library */
 
@@ -2724,7 +2810,6 @@ bottom: 1rem;
   margin: 32px auto;
 width: 80%;
 height: 1vh;
-background-color: #F4F7FA;
 position: relative;
 }
   
@@ -3337,12 +3422,16 @@ margin-left: 250px;
 .picofmel {
  width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
 bottom: 1rem;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lighthousemock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
   
 .bg-colorl {
@@ -3601,12 +3690,16 @@ justify-content: space-around;
   .picofmel {
   height: 200px;
     width: 300px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lighthousemock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
   
 a.active {
