@@ -169,7 +169,7 @@ background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center;
-background-color: #fbb888;
+background-color: #BEA69A;
 }
 
 .project1-number {
@@ -416,10 +416,9 @@ background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center; 
-
 }
 
-project4-image{
+.project4-image{
  
 height: 14rem;
 border-radius: 16px;
@@ -428,19 +427,19 @@ width: 315px;
 }
 }
 
-project1-image {
+.project1-image {
   background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center;
-background-color: #fbb888;
+background-color: #BEA69A;
 height: 14rem;
 border-radius: 16px;
 width: 315px;
 }
 
-project3-image {
+.project3-image {
   background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
 background-repeat: no-repeat;
 background-size: contain;
@@ -461,8 +460,6 @@ align-items: center;
     bottom: -20rem;
 }
   
-} 
-
 
 
  /* info */
