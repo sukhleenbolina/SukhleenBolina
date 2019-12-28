@@ -247,11 +247,12 @@ justify-content: flex-end;
     grid-column-end: 6;
     border-radius: 16px;
     grid-row-end: 2;
-    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center; 
+background-color: #8a7b78;
 }
 
 
@@ -285,6 +286,12 @@ bottom: -3rem;
     grid-column-end: 4;
     border-radius: 16px;
     grid-row-end: 4;
+    background-color: #D9BFAE;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
    
 }
 
@@ -419,8 +426,12 @@ background-position: center;
 }
 
 .project4-image{
- 
-height: 14rem;
+background-color: #D9BFAE;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
 border-radius: 16px;
 border: 1px solid;
 width: 315px;
@@ -428,26 +439,23 @@ width: 315px;
 }
 
 .project1-image {
-  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sockmarketmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center;
 background-color: #BEA69A;
-height: 14rem;
 border-radius: 16px;
-width: 315px;
 }
 
 .project3-image {
-  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center; 
-height: 14rem;
 border-radius: 16px;
-width: 315px;
+background-color: #8a7b78;
 }
 
 .homefooter {
@@ -887,12 +895,37 @@ position: relative;
 top: 16%;
 }
 
-.project1-imagew {
+.project1-imagewa {
 grid-column-start: 2;
 grid-column-end: 5;
-border: 1px solid;
 border-radius: 16px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sockmarketmock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #BEA69A;
 }
+
+.project1-imagewb{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  border-radius: 16px;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysmock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+border-radius: 16px;
+background-color:#8a7b78;
+  }
+
+  .project1-imagewc {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    border: 1px solid;
+    border-radius: 16px;
+    }
 
 .project1-numberw {
   grid-column-start: 1;
@@ -1027,13 +1060,34 @@ margin: 1.5rem;
 }
  
 
-.project1-imagew, .project2-imagew, .project3-imagew, .project4-imagew  {
+.project1-imagewa{
 height: 250px;
-border: 1px solid;
 border-radius: 16px;
 width: 300px;
 margin: -2%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sockmarketmock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+background-color: #BEA69A;
 }
+
+.project1-imagewb{
+  height: 250px;
+  border: 1px solid;
+  border-radius: 16px;
+  width: 300px;
+  margin: -2%;
+  }
+
+ .project1-imagewc {
+    height: 250px;
+    border: 1px solid;
+    border-radius: 16px;
+    width: 300px;
+    margin: -2%;
+    }
   
   .footerwork {
 display: flex;
@@ -1195,15 +1249,19 @@ top: 16%;
 .project1-imagepa {
 grid-column-start: 2;
 grid-column-end: 5;
-border: 1px solid;
 border-radius: 16px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lhmock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
 }
 
 .project1-imagepb {
   grid-column-start: 2;
   grid-column-end: 5;
-  border: 1px solid;
   border-radius: 16px;
+  background-color: #bea69a;
   }
 
 
@@ -1213,8 +1271,9 @@ border-radius: 16px;
     border-radius: 16px;
     background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googlelogodoodle.png");
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 50% 50%;
 background-position: center;
+background-color: white;
     }
 
 
@@ -1354,18 +1413,22 @@ margin: 1.5rem;
 
 .project1-imagepa{
   height: 250px;
-  border: 1px solid;
   border-radius: 16px;
   width: 300px;
   margin: -2%;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lhmock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 .project1-imagepb{
   height: 250px;
-  border: 1px solid;
   border-radius: 16px;
   width: 300px;
   margin: -2%;
+  background-color: #bea69a;
 }
 
 .project1-imagepc{
@@ -1475,12 +1538,12 @@ z-index: 5;
 position: relative;
 left: 30%;
 bottom: 37%;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sockmarketmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center;
-background-color: #fbb888;
+background-color: #BEA69A;
 }
   
 .bg-colorsm {
@@ -1642,11 +1705,15 @@ font-family: 'Roboto', sans-serif;
   div.researchsm {
     width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -128%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smintro.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
  }
   
  p.threesm {
@@ -1679,11 +1746,15 @@ padding-top: 1%;
   div.designsm {
     width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 62%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smdesigns.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
   }
   
   p.foursm{
@@ -1722,7 +1793,7 @@ background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center;
-background-color: #ABAEB1;
+background-color: #d9bfae;
   }
   
   footer.smfooter {
@@ -1768,12 +1839,12 @@ z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sockmarketmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center;
-background-color: #fbb888;
+background-color: #BEA69A;
 }
   
 a.active {
@@ -1964,12 +2035,16 @@ font-family: 'Roboto', sans-serif;
   div.researchsm {
     width: 300px;
 height: 200px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -128%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smintro.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
  }
   
  p.threesm {
@@ -2002,12 +2077,16 @@ padding-top: 1%;
   div.designsm {
     width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 62%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smdesigns.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
   }
   
   p.foursm {
@@ -2047,7 +2126,7 @@ border-radius: 16px;
     background-size: contain;
     background-size: cover;
     background-position: center;
-    background-color: #ABAEB1;
+    background-color: #d9bfae;
   }
 
   .bluesm {
@@ -2163,11 +2242,12 @@ z-index: 5;
 position: relative;
 left: 30%;
 bottom: 37%;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rys.png");
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center; 
+background-color: #8a7b78;
 }
   
 .bg-colorr {
@@ -2326,11 +2406,15 @@ font-family: 'Roboto', sans-serif;
   div.researchr {
     width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -132%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/calexicointro.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
  }
   
  p.threer {
@@ -2363,11 +2447,15 @@ padding-top: 1%;
   div.designr {
     width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 85%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/calexicowireframe.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
   }
   
   p.fourr {
@@ -2401,11 +2489,12 @@ grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 95%;
-    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fourrys.png");
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysfour.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position: center; 
+background-color: #bea69a;
 }
   }
   
@@ -2614,12 +2703,16 @@ font-family: 'Roboto', sans-serif;
   div.researchr {
     width: 300px;
 height: 200px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -128%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/calexicointro.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
  }
   
  p.threer{
@@ -2652,12 +2745,16 @@ padding-top: 1%;
   div.designr {
     width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 62%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/calexicowireframe.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
   }
   
   p.fourr {
@@ -2692,11 +2789,12 @@ border-radius: 16px;
     position: relative;
     bottom: 70%;
     margin: 0 auto;
-    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fourrys.png");
-background-repeat: no-repeat;
-background-size: contain;
-background-size: cover;
-background-position: center; 
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysfour.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center; 
+    background-color: #bea69a;
 }
   }
   
@@ -3424,7 +3522,7 @@ z-index: 5;
 position: relative;
 left: 30%;
 bottom: 1rem;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lighthousemock.png");
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lhmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
@@ -3650,11 +3748,15 @@ font-family: 'Roboto', sans-serif;
   div.prototypel {
       width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
        bottom: 210%;
+       background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lighthousemock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 }
   
   footer.lfooter {
@@ -3692,7 +3794,7 @@ z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lighthousemock.png");
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lhmock.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
@@ -3939,12 +4041,16 @@ font-family: 'Roboto', sans-serif;
   div.prototypel {
       width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 70%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/lighthousemock.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
   }
   
   footer.lfooter {
@@ -4639,7 +4745,9 @@ left: 30%;
 bottom: 1rem;
 background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googlelogodoodle.png");
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 50% 50%;
+background-position: center;
+background-color: white;
 }
   
 .bg-colorg {
@@ -4705,8 +4813,9 @@ height: 500px;
 border-radius: 16px;
 background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/firstdoodle.jpg");
 background-repeat: no-repeat;
-background-size: cover;
-background-position-x: -275px;
+background-size: 50% 50%;
+background-position : center;
+background-color: white;
 }
 
 b {
@@ -4835,8 +4944,10 @@ border-radius: 16px;
     position: relative;
         bottom: 19%;
         background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googledoodleladdar.png");
-background-repeat: no-repeat;
-background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+        background-position: center;
+        background-color:white;
 }
   
 
@@ -4855,6 +4966,11 @@ border-radius: 16px;
        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googlelogodoodle.png");
 background-repeat: no-repeat;
 background-size: cover;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googlelogodoodle.png");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    background-color: white;
 }
   
   footer.gfooter {
@@ -5081,8 +5197,10 @@ border-radius: 16px;
 bottom: 62%;
     margin: 0 auto;
     background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googledoodleladdar.png");
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    background-color:white;
   }
   
   p.fourg {
@@ -5119,7 +5237,9 @@ border-radius: 16px;
     margin: 0 auto;
     background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/googlelogodoodle.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50% 50%;
+    background-position: center;
+    background-color: white;
   }
   
   footer.gfooter {
