@@ -448,7 +448,6 @@ background-size: cover;
 background-position: center;
 background-color: #BEA69A;
 border-radius: 16px;
-height: 14rem;
     width: 315px;
 }
 
@@ -460,7 +459,6 @@ background-size: cover;
 background-position: center; 
 border-radius: 16px;
 background-color: #8a7b78;
-height: 14rem;
     width: 315px;
 }
 
@@ -589,13 +587,12 @@ bottom: 36%;
  .infoboutit {
    font-family: 'Roboto', sans-serif;
    font-size: 21px;
-   font-weight: 100;
+   font-weight: 300;
    position: relative;
    left: 30%;
    top: -36%;
    width: 56%;
    margin: 0 0 2% 0;
-   color: #ABAEB1;
  }
    
    footer.infofooter {
@@ -736,12 +733,10 @@ bottom: 28rem;
      bottom: -12%;
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
-   font-weight: 100;
-   color: #ABAEB1;
+   font-weight: 300;
    margin: auto 1.5rem;
      margin-right: 1.5rem;
      margin-left: 1.5rem;
-     color: #ABAEB1;
    
  }
    
@@ -928,8 +923,12 @@ background-color:#8a7b78;
   .project1-imagewc {
     grid-column-start: 2;
     grid-column-end: 5;
-    border: 1px solid;
     border-radius: 16px;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mobilelib.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+    background-color: #D9BFAE;
     }
 
 .project1-numberw {
@@ -1079,18 +1078,27 @@ background-color: #BEA69A;
 
 .project1-imagewb{
   height: 250px;
-  border: 1px solid;
   border-radius: 16px;
   width: 300px;
   margin: -2%;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/rysmock.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 16px;
+background-color:#8a7b78;
   }
 
  .project1-imagewc {
     height: 250px;
-    border: 1px solid;
     border-radius: 16px;
     width: 300px;
     margin: -2%;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mobilelib.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+    background-color: #D9BFAE;
     }
   
   .footerwork {
