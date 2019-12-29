@@ -286,13 +286,12 @@ bottom: -3rem;
     grid-column-end: 4;
     border-radius: 16px;
     grid-row-end: 4;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mobilelib.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+    border-radius: 16px;
     background-color: #D9BFAE;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
-background-repeat: no-repeat;
-background-size: contain;
-background-size: cover;
-background-position: center;
-   
 }
 
 .project4-info {
@@ -427,10 +426,9 @@ background-position: center;
 
 .project4-image{
 background-color: #D9BFAE;
-background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/smmockportfolio.png");
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mobilelib.png");
 background-repeat: no-repeat;
-background-size: contain;
-background-size: cover;
+background-size: 80% 80%;
 background-position: center;
 border-radius: 16px;
 border: 1px solid;
@@ -2893,12 +2891,17 @@ margin-left: 250px;
 .picofmeml {
  width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
 bottom: 1rem;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mobilelib.png");
+background-repeat: no-repeat;
+background-size: 80% 80%;
+background-position: center;
+border-radius: 16px;
+background-color: #D9BFAE;
 }
   
 .bg-colorml {
@@ -3093,11 +3096,16 @@ padding-top: 1%;
   div.designml{
     width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
         bottom: 164%;
+        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mlassets.png");
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: center;
+        border-radius: 16px;
+        background-color: #bea69a;
 }
   
   p.fourml {
@@ -3127,11 +3135,16 @@ font-family: 'Roboto', sans-serif;
   div.prototypeml {
       width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
        bottom: 176%;
+       background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mltemplate.png");
+       background-repeat: no-repeat;
+       background-size: 80% 80%;
+       background-position: center;
+       border-radius: 16px;
+       background-color: #8a7b78;
 }
   
   footer.mlfooter {
@@ -3164,12 +3177,17 @@ justify-content: space-around;
   .picofmeml {
   height: 200px;
     width: 300px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mobilelib.png");
+background-repeat: no-repeat;
+background-size: 80% 80%;
+background-position: center;
+border-radius: 16px;
+background-color: #D9BFAE;
 }
   
 a.active {
@@ -3377,12 +3395,17 @@ padding-top: 1%;
   div.designml{
     width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 62%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mlassets.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+    border-radius: 16px;
+    background-color: #bea69a;
   }
   
   p.fourml {
@@ -3412,12 +3435,17 @@ font-family: 'Roboto', sans-serif;
   div.prototypeml {
       width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: 70%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/mltemplate.png");
+       background-repeat: no-repeat;
+       background-size: 80% 80%;
+       background-position: center;
+       border-radius: 16px;
+       background-color: #8a7b78;
   }
   
   footer.mlfooter {
@@ -3676,11 +3704,15 @@ font-family: 'Roboto', sans-serif;
   div.researchl {
     width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -166%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/thumbprint.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center; 
 
  }
   
@@ -3714,11 +3746,15 @@ padding-top: 1%;
   div.designl {
     width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
         bottom: 198%;
+        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/slam.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-color: white;
 }
   
   p.fourl {
@@ -3968,12 +4004,16 @@ font-family: 'Roboto', sans-serif;
   div.researchl {
     width: 300px;
 height: 200px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -128%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/thumbprint.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;     
  }
   
  p.threel{
@@ -4006,12 +4046,16 @@ padding-top: 1%;
   div.designl {
     width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 62%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/slam.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-color: white;
   }
   
   p.fourl {
