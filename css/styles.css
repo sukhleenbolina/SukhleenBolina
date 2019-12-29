@@ -79,8 +79,7 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 21px;
 }
 
@@ -121,8 +120,7 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 21px;
 }
 
@@ -183,6 +181,8 @@ grid-column-end: 2;
     grid-column-start: 3;
     grid-row-start: 2;
     grid-column-end: 7;
+    position: relative;
+    bottom: -14%;
 }
 
   .project2 {
@@ -260,6 +260,8 @@ background-color: #8a7b78;
     grid-column-start: 3;
 grid-column-end: 6;
 grid-row-start: 2;
+position: relative;
+    bottom: -14%;
 }
 
  .project4 {
@@ -383,9 +385,11 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
+  display: inline-block;
+  line-height: 20px;
+  
 }
 
 .project1-number, .project2-number, .project3-number, .project4-number{
@@ -431,8 +435,8 @@ background-repeat: no-repeat;
 background-size: 80% 80%;
 background-position: center;
 border-radius: 16px;
-border: 1px solid;
 width: 315px;
+height: 14rem;
 }
 }
 
@@ -444,6 +448,8 @@ background-size: cover;
 background-position: center;
 background-color: #BEA69A;
 border-radius: 16px;
+height: 14rem;
+    width: 315px;
 }
 
 .project3-image {
@@ -454,6 +460,8 @@ background-size: cover;
 background-position: center; 
 border-radius: 16px;
 background-color: #8a7b78;
+height: 14rem;
+    width: 315px;
 }
 
 .homefooter {
@@ -778,8 +786,7 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 21px;
 }
 
@@ -1025,8 +1032,7 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -1131,8 +1137,7 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 21px;
 }
 
@@ -1372,8 +1377,7 @@ span.title {
 
 span.description {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -1483,8 +1487,7 @@ span.titlesm {
 
 span.descriptionsm {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 21px;
 }
 
@@ -1823,8 +1826,7 @@ justify-content: space-around;
 
 span.descriptionsm {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -2175,8 +2177,7 @@ span.titler {
 
 span.descriptionr {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .categoryr {
@@ -2193,8 +2194,7 @@ span.titler {
 
 span.descriptionr {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 section.solutionsr section.challengesr{
@@ -2838,8 +2838,7 @@ span.titleml {
 
 span.descriptionml {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .categoryml {
@@ -2856,8 +2855,7 @@ span.titleml {
 
 span.descriptionml {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1281px){
@@ -3492,8 +3490,7 @@ span.titlel {
 
 span.descriptionl {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .categoryl {
@@ -3510,8 +3507,7 @@ span.titlel {
 
 span.descriptionl {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1281px){
@@ -4141,8 +4137,7 @@ span.titlesb {
 
 span.descriptionsb {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .categorysb {
@@ -4159,8 +4154,7 @@ span.titlesb {
 
 span.descriptionsb {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1281px){
@@ -4729,8 +4723,7 @@ span.titleg {
 
 span.descriptiong {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .categoryg {
@@ -4747,8 +4740,7 @@ span.titleg {
 
 span.descriptiong {
   font-family: 'Roboto', sans-serif;
-  color: #ABAEB1;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1281px){
