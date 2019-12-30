@@ -40,11 +40,12 @@ header {
 .myinfo {
   width: 30%;
   font-size: 45px;
-  color: #ABAEB1;
+  color: #667E94;
   position: relative;
   left: 8%;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
+  z-index: 1000;
 }
 
 span.name {
@@ -55,13 +56,16 @@ span.name {
 .picofmehome {
   width: 400px;
   height: 500px;
-  border: 1px solid;
   margin: 0 16px;
   position: relative;
   right: 8%;
    border-radius: 16px;
   z-index: 5;
   bottom: -1rem;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/picofme.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 
@@ -334,13 +338,17 @@ justify-content: space-around;
   .picofmehome {
   width: 300px;
   height: 350px;
-  border: 1px solid;
   margin: 0 16px;
   position: relative;
   right: 8%;
     bottom: -3rem;
    border-radius: 16px;
   z-index: 5;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/picofme.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+background-position-x: center;
+background-position-y: -2rem;
 }
   
 a.active {
@@ -394,11 +402,12 @@ margin-right: 10px;
   .myinfo {
   width: 30%;
   font-size: 36px;
-  color: #ABAEB1;
+  color: #667E94;
   position: relative;
   left: 8%;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
+  z-index: 1000;
 }
   
   .category {
@@ -566,12 +575,15 @@ align-items: center;
  .picofmeinfo {
   width: 55%;
  height: 500px;
- border: 1px solid;
  border-radius: 16px;
  z-index: 5;
    position: relative;
    left: 30%;
    bottom: 35%;
+   background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/infopic.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
      
  }
  
@@ -654,7 +666,7 @@ bottom: 28rem;
    }
    .text {
      position: relative;
-     bottom: 5rem;
+     bottom: -7rem;
    }
    
     .allofit {
@@ -702,12 +714,15 @@ bottom: 28rem;
    .picofmeinfo {
     height: 250px;
     width: 300px;
-    border: 1px solid;
     border-radius: 16px;
     z-index: 9;
     position: relative;
     bottom: -7.5rem;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/infopic.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
  }
    
    section.links {
@@ -888,12 +903,20 @@ section.link{
 .picofmework {
  width: 55%;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/workpicofme.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position-x: center;
+background-position-y: -30rem;
+background-color: #ffffff;
+  background-blend-mode: multiply;
 bottom: 28rem;
+filter: brightness(130%);
 }
 
 .bg-colorwork {
@@ -1012,13 +1035,21 @@ body.work {
   
   .picofmework {
 height: 250px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
 width: 300px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/workpicofme.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position-x: center;
+background-position-y: -30rem;
+background-color: #ffffff;
+  background-blend-mode: multiply;
+  filter: brightness(130%);
 }
   
 a.active {
@@ -1040,11 +1071,12 @@ margin-right: 10px;
   .myinfo {
   width: 30%;
   font-size: 36px;
-  color: #ABAEB1;
+  color: #667E94;
   position: relative;
   left: 8%;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
+  z-index: 1000;
 }
   
   .category {
@@ -1250,12 +1282,20 @@ section.links{
 .picofmeplay {
  width: 55%;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
 bottom: 28rem;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/playpicofme.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position-x: center;
+background-position-y: -1rem;
+background-color: #ffffff;
+  background-blend-mode: multiply;
+  filter: brightness(110%);
 }
 
 .bg-colorplay {
@@ -1303,7 +1343,12 @@ background-position-x: 37%;
   grid-column-start: 2;
   grid-column-end: 5;
   border-radius: 16px;
-  background-color: #bea69a;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fullsb.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: -3rem;
+background-color: #f7e6db;
+  background-blend-mode: multiply;
   }
 
 
@@ -1366,13 +1411,21 @@ justify-content: space-around;
   
   .picofmeplay {
 height: 250px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
 width: 300px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/playpicofme.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position-x: center;
+background-position-y: -1rem;
+background-color: #ffffff;
+  background-blend-mode: multiply;
+  filter: brightness(110%);
 }
   
 a.active {
@@ -1469,7 +1522,12 @@ margin: 1.5rem;
   border-radius: 16px;
   width: 300px;
   margin: -2%;
-  background-color: #bea69a;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fullsb.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: -3rem;
+background-color: #f7e6db;
+  background-blend-mode: multiply;
 }
 
 .project1-imagepc{
@@ -4234,12 +4292,17 @@ margin-left: 250px;
 .picofmesb {
  width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 left: 30%;
 bottom: 1rem;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fullsb.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: -10rem;
+background-color: #f7e6db;
+  background-blend-mode: multiply;
 }
   
 .bg-colorsb {
@@ -4301,10 +4364,16 @@ grid-row-start: 2;
 display: flex;
 position: relative;
 bottom: 42%;
-border: 1px solid;
 width: 700px;
 height: 500px;
 border-radius: 16px;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fullsb.png");
+background-repeat: no-repeat;
+background-size: auto;
+background-position-y: 0;
+background-color:
+#f7e6db;
+background-position-x: -15rem;
 }
 
 b {
@@ -4387,11 +4456,16 @@ font-family: 'Roboto', sans-serif;
   div.researchsb {
     width: 700px;
 height: 500px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -95%;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/blankboard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f7e6db;
+    background-blend-mode: multiply;
  }
   
  p.threesb {
@@ -4424,11 +4498,15 @@ padding-top: 1%;
   div.designsb {
     width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
         bottom: 90%;
+        background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sbright.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -10rem;
+        background-color: #f7e6db;
 }
   
 
@@ -4440,11 +4518,14 @@ border-radius: 16px;
   div.prototypesb {
       width: 700px;
 height: 500px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
        bottom: 103%;
+       background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sbleft.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #f7e6db;
 }
   
   footer.sbfooter {
@@ -4477,12 +4558,17 @@ justify-content: space-around;
   .picofmesb {
   height: 200px;
     width: 300px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 9;
 position: relative;
 bottom: -5.5rem;
 margin: 0 auto;
+background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fullsb.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: -10rem;
+background-color: #f7e6db;
+  background-blend-mode: multiply;
 }
   
 a.active {
@@ -4558,6 +4644,13 @@ grid-column-end: 3;
   flex-direction: column;
   position: relative;
   bottom: 50%;
+  background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/fullsb.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: 0;
+  background-color:
+  #f7e6db;
+  background-position-x: -15rem;
 }
 
 
@@ -4642,12 +4735,17 @@ font-family: 'Roboto', sans-serif;
   div.researchsb{
     width: 300px;
 height: 200px;
-border: 1px solid;
 border-radius: 16px;
 z-index: 5;
 position: relative;
 top: -128%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/blankboard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f7e6db;
+    background-blend-mode: multiply;
  }
   
  p.threesb {
@@ -4680,12 +4778,16 @@ padding-top: 1%;
   div.designsb {
     width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 6;
 border-radius: 16px;
     position: relative;
 bottom: 62%;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sbright.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -10rem;
+    background-color: #f7e6db;
   }
   
   p.foursb {
@@ -4715,12 +4817,16 @@ font-family: 'Roboto', sans-serif;
   div.prototypesb {
       width: 300px;
 height: 200px;
-border: 1px solid;
 grid-row-start: 8;
 border-radius: 16px;
     position: relative;
     bottom: -1rem;
     margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/sukhleenbolina/senioruxportfolio/master/assets/sbleft.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: -10rem;
+background-color: #f7e6db;
   }
   
   footer.sbfooter {
