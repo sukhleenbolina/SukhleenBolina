@@ -911,8 +911,7 @@ background-image: url("https://raw.githubusercontent.com/sukhleenbolina/seniorux
 background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
-background-position-x: center;
-background-position-y: -30rem;
+background-position: center;
 background-color: #ffffff;
   background-blend-mode: multiply;
 bottom: 28rem;
@@ -1046,7 +1045,6 @@ background-repeat: no-repeat;
 background-size: contain;
 background-size: cover;
 background-position-x: center;
-background-position-y: -30rem;
 background-color: #ffffff;
   background-blend-mode: multiply;
   filter: brightness(130%);
@@ -1349,6 +1347,7 @@ background-size: cover;
 background-position-y: -3rem;
 background-color: #f7e6db;
   background-blend-mode: multiply;
+  filter: brightness(130%);
   }
 
 
@@ -1528,6 +1527,7 @@ background-size: cover;
 background-position-y: -3rem;
 background-color: #f7e6db;
   background-blend-mode: multiply;
+  filter: brightness(130%);
 }
 
 .project1-imagepc{
@@ -4303,6 +4303,7 @@ background-size: cover;
 background-position-y: -10rem;
 background-color: #f7e6db;
   background-blend-mode: multiply;
+  filter: brightness(130%);
 }
   
 .bg-colorsb {
@@ -4569,6 +4570,7 @@ background-size: cover;
 background-position-y: -10rem;
 background-color: #f7e6db;
   background-blend-mode: multiply;
+  filter: brightness(130%);
 }
   
 a.active {
